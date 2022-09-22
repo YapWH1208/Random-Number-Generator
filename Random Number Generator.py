@@ -33,9 +33,11 @@ Random_Label.grid(row=8, sticky=S)
 
 # Entry
 Min_Entry = Entry(window, textvariable=Min, font=("Arial", 12))
+Min_Entry.insert(1, "0")
 Min_Entry.grid(row=5, sticky=E)
 
 Max_Entry = Entry(window, textvariable=Max, font=("Arial", 12))
+Max_Entry.insert(1, "10")
 Max_Entry.grid(row=6, sticky=E)
 
 # Button
